@@ -161,15 +161,9 @@ I understand that violations of academic integrity will result in zero marks.
 
 ## Screenshots Directory
 
-```
 screenshots/
 ├── pdb_creation.png
-├── pdb_open_state.png
-├── user_creation.png
-├── temp_pdb_creation.png
 ├── pdb_deletion.png
-├── deletion_confirmed.png
-└── sqlplus_verification.png
-```
+└── oem_dashboard.png
 
 **End of Documentation**
