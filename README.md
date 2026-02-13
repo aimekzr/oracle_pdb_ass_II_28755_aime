@@ -24,7 +24,7 @@ This assignment demonstrates practical understanding of Oracle Multitenant Archi
 
 **Oracle Database Version:** `Oracle Database 21c Express Edition Release 21.0.0.0.0`  
 **Operating System:** `Microsoft Windows x86 64-bit.`   <br> 
-**Container Database (CDB) Name:** `CDB$ROOT`   <br> 
+**Container Database (CDB) Name:** `EX`   <br> 
 **Oracle Enterprise Manager Version:** `Not installed (Oracle XE does not include OEM).`  <br> 
 **Installation Type:** `Single Instance.`  <br> 
 
@@ -153,7 +153,7 @@ I understand that violations of academic integrity will result in zero marks.
 ## Submission Information
 
 **Repository Name:** `oracle_pdb_ass_II_28755_aime`  
-**Repository Link:** `https://github.com/aimekzr/oracle_pdb_ass_II_28755_aime.git`
+**Repository Link:** https://github.com/aimekzr/oracle_pdb_ass_II_28755_aime.git <br>
 **PDB Name Created:** `ai_pdb_28755`  
 **Issues Encountered:** Yes (OEM not available in Oracle XE - used SQL*Plus alternative)
 
