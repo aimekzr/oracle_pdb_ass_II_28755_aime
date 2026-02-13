@@ -51,10 +51,12 @@ This assignment demonstrates practical understanding of Oracle Multitenant Archi
    ADMIN USER pdbadmin IDENTIFIED BY 1l2b3k4d
    FILE_NAME_CONVERT=('pdbseed','ai_pdb_28755');
    ```
+   <img width="500" height="400" alt="Image" src="https://github.com/user-attachments/assets/7adafbcb-3cc5-40dc-a44d-c5e1090fe7a2" />
 3. **Opened the PDB**
    ```sql
    ALTER PLUGGABLE DATABASE ai_pdb_28755 OPEN;
    ```
+   <img width="500" height="400" alt="Image" src="https://github.com/user-attachments/assets/9c1e5176-7ba0-4e22-a2df-c5a7866ecd76" />
 4. **Verified PDB is created and open**
    ```sql
    SHOW PDBS;
