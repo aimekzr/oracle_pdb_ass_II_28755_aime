@@ -1,9 +1,4 @@
 # Information About Me 🪄 
-Name: Kwizera Aime <br>
-Stusent ID: 28755 <br>
-Group: D <br>
-Date: 8th, Feb 2026 <br>
-Database with pl/sql Assignment 1<br>
 ## 🌐 Socials
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/yRSgqtf2) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/aime41_) 
 ## 💻 Tech Stack
