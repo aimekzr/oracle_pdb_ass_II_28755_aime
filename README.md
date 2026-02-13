@@ -34,13 +34,13 @@ This assignment demonstrates practical understanding of Oracle Multitenant Archi
 
 ### Task 1: Create a New Pluggable Database
 
-**Objective:** Create a permanent PDB with a user account for future PL/SQL coursework.
+#### Objective: Create a permanent PDB with a user account for future PL/SQL coursework.
 
 **PDB Name:** `ai_pdb_28755`  
 **Username:** `aime_plsqlauca_28755`  
 **Password:** `0793838822`
 
-**Steps Performed:**
+#### Steps Performed:
 1. **Connected to the Container Database (CDB) as SYSDBA**
    ```sql
    sqlplus / as sysdba
@@ -78,17 +78,18 @@ This assignment demonstrates practical understanding of Oracle Multitenant Archi
    SELECT username FROM dba_users WHERE username = 'aime_plsqlauca_28755';
    ```
    <img width="500" height="400" alt="Image" src="https://github.com/user-attachments/assets/909e89f8-c6f8-4862-b61b-6ff66aafcabf" />
-**Evidence:** See screenshots in `screenshots/` folder
-
+#### Evidence Screenshots Directory 
+- PDB Creation <br>
+![image alt](https://github.com/aimekzr/oracle_pdb_ass_II_28755_aime/tree/3b1a55014ab985a64b5364cd5219c48ba2d7a8eb/screenshots/PDB%20Creation%20screenshots)
 ---
 
 ### Task 2: Create and Delete a PDB
 
-**Objective:** Demonstrate PDB lifecycle management by creating and completely removing a temporary PDB.
+#### Objective: Demonstrate PDB lifecycle management by creating and completely removing a temporary PDB.
 
 **Temporary PDB Name:** `ai_to_delete_pdb_28755`
 
-**Steps Performed:**
+#### Steps Performed:
 1. **Created temporary PDB**
    ```sql
    CREATE PLUGGABLE DATABASE ai_to_delete_pdb_28755
@@ -115,41 +116,40 @@ This assignment demonstrates practical understanding of Oracle Multitenant Archi
    ```sql
    SHOW PDBS;
    ```
-**Evidence:** See screenshots in `screenshots/` folder
-
+#### Evidence Screenshots Directory
+- Creation and Deletion Temporary PDB <br>
+![image alt](https://github.com/aimekzr/oracle_pdb_ass_II_28755_aime/tree/e05c0c37652f1b81e27111382fbf02b361c2bf09/screenshots/Create%20and%20Delete%20Temporary%20PDB)
 ---
 
 ### Task 3: Oracle Enterprise Manager (OEM)
 
-**Objective:** Configure and access Oracle Enterprise Manager to monitor the database environment.
+#### Objective: Configure and access Oracle Enterprise Manager to monitor the database environment.
 
 **Note:** Oracle Database 21c Express Edition does not include Oracle Enterprise Manager (OEM). As an alternative, SQL*Plus and SQL Developer were used to verify database configuration and PDB status.
 
-**Steps Performed:**
+#### Steps Performed:
 1. Verified all PDBs using `SHOW PDBS` command in SQL*Plus
 2. Queried PDB details using `SELECT name, open_mode, con_id FROM v$pdbs`
 3. Verified database instance using `SELECT name FROM v$database`
 4. Confirmed user creation in PDB by connecting to `ai_pdb_28755` and querying `dba_users`
 
-**Evidence:** See screenshots in `screenshots/` folder showing SQL*Plus output with database and PDB information
-
+#### Evidence Screenshots Directory
+- OEM dashboard <br>
+![image alt](https://github.com/aimekzr/oracle_pdb_ass_II_28755_aime/tree/6d20e7423a100030d0d876f869792e1c55faf5a8/screenshots/OEM%20dashboard)
 ---
 
 ## Challenges Faced and How They Were Solved
 
-**Challenge:** Oracle Enterprise Manager (OEM) is not available in Oracle 21c Express Edition.
+### Challenge: 
+Oracle Enterprise Manager (OEM) is not available in Oracle 21c Express Edition.
 
 **Solution:** Used SQL*Plus commands to verify all tasks completion. Screenshots demonstrate PDB creation, deletion, and user management through SQL commands as alternative evidence to OEM dashboard.
 
 ---
-
 ## Integrity Statement
 “All sources were properly cited. Implementations and analysis represent original work. No AI-
 generated content was copied without attribution or adaptation.”
 I understand that violations of academic integrity will result in zero marks.
-
-**Name:** Aime Kwizera  
-**Date:** February 15, 2026
 
 ---
 
@@ -161,16 +161,4 @@ I understand that violations of academic integrity will result in zero marks.
 **Issues Encountered:** Yes (OEM not available in Oracle XE - used SQL*Plus alternative)
 
 ---
-
-## Screenshots Directory
-
-screenshots
-- PDB Creation.png <br>
-![image alt](https://github.com/aimekzr/oracle_pdb_ass_II_28755_aime/tree/3b1a55014ab985a64b5364cd5219c48ba2d7a8eb/screenshots/PDB%20Creation%20screenshots)
-- Creation and Deletion Temporary PDB.png <br>
-![image alt](https://github.com/aimekzr/oracle_pdb_ass_II_28755_aime/tree/e05c0c37652f1b81e27111382fbf02b361c2bf09/screenshots/Create%20and%20Delete%20Temporary%20PDB)
-- OEM dashboard.png <br>
-![image alt](https://github.com/aimekzr/oracle_pdb_ass_II_28755_aime/tree/6d20e7423a100030d0d876f869792e1c55faf5a8/screenshots/OEM%20dashboard)
-
-
 **--End of Documentation--**
