@@ -77,6 +77,7 @@ This assignment demonstrates practical understanding of Oracle Multitenant Archi
    ```sql
    SELECT username FROM dba_users WHERE username = 'aime_plsqlauca_28755';
    ```
+   <img width="500" height="400" alt="Image" src="https://github.com/user-attachments/assets/909e89f8-c6f8-4862-b61b-6ff66aafcabf" />
 **Evidence:** See screenshots in `screenshots/` folder
 
 ---
