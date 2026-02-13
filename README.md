@@ -38,20 +38,43 @@ This assignment demonstrates practical understanding of Oracle Multitenant Archi
 
 **PDB Name:** `ai_pdb_28755`  
 **Username:** `aime_plsqlauca_28755`  
-**Password:** (Configured securely)
+**Password:** `0793838822`
 
 **Steps Performed:**
-1. Connected to the Container Database (CDB) as SYSDBA
-2. Created the PDB using
-   sql
-   ```CREATE PLUGGABLE DATABASE ai_pdb_28755 ADMIN USER pdbadmin IDENTIFIED BY password FILE_NAME_CONVERT=('pdbseed','ai_pdb_28755')
+1.  **Connected to the Container Database (CDB) as SYSDBA**
+   ```sql
+   sqlplus / as sysdba
    ```
-4. Opened the PDB using `ALTER PLUGGABLE DATABASE ai_pdb_28755 OPEN`
-5. Connected to the PDB using `ALTER SESSION SET CONTAINER = ai_pdb_28755`
-6. Created user `aime_plsqlauca_28755` with the configured password
-7. Granted necessary privileges using `GRANT CONNECT, RESOURCE TO aime_plsqlauca_28755`
-8. Verified PDB status using `SHOW PDBS` and user creation using `SELECT username FROM dba_users WHERE username = 'AIME_PLSQLAUCA_28755'`
-
+2. **Created the PDB**
+   ```sql
+   CREATE PLUGGABLE DATABASE ai_pdb_28755
+   ADMIN USER pdbadmin IDENTIFIED BY 1l2b3k4d
+   FILE_NAME_CONVERT=('pdbseed','ai_pdb_28755');
+   ```
+3. **Opened the PDB**
+   ```sql
+   ALTER PLUGGABLE DATABASE ai_pdb_28755 OPEN;
+   ```
+4. **Verified PDB is created and open**
+   ```sql
+   SHOW PDBS;
+   ```
+5. **Connected to the PDB**
+   ```sql
+   ALTER SESSION SET CONTAINER = ai_pdb_28755;
+   ```
+6. **Created user account**
+   ```sql
+   CREATE USER aime_plsqlauca_28755 IDENTIFIED BY 0793838822;
+   ```
+7. **Granted necessary privileges**
+   ```sql
+   GRANT CONNECT, RESOURCE TO aime_plsqlauca_28755;
+   ```
+8. **Verified user creation**
+   ```sql
+   SELECT username FROM dba_users WHERE username = 'aime_plsqlauca_28755';
+   ```
 **Evidence:** See screenshots in `screenshots/` folder
 
 ---
