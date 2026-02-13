@@ -41,7 +41,7 @@ This assignment demonstrates practical understanding of Oracle Multitenant Archi
 **Password:** `0793838822`
 
 **Steps Performed:**
-1.  **Connected to the Container Database (CDB) as SYSDBA**
+1. **Connected to the Container Database (CDB) as SYSDBA**
    ```sql
    sqlplus / as sysdba
    ```
@@ -86,12 +86,32 @@ This assignment demonstrates practical understanding of Oracle Multitenant Archi
 **Temporary PDB Name:** `ai_to_delete_pdb_28755`
 
 **Steps Performed:**
-1. Created temporary PDB using `CREATE PLUGGABLE DATABASE ai_to_delete_pdb_28755 ADMIN USER pdbadmin IDENTIFIED BY password FILE_NAME_CONVERT=('pdbseed','ai_to_delete_pdb_28755')`
-2. Verified PDB existence using `SHOW PDBS`
-3. Closed the PDB using `ALTER PLUGGABLE DATABASE ai_to_delete_pdb_28755 CLOSE IMMEDIATE`
-4. Deleted the PDB using `DROP PLUGGABLE DATABASE ai_to_delete_pdb_28755 INCLUDING DATAFILES`
-5. Confirmed deletion using `SHOW PDBS` to verify the PDB no longer exists
-
+1. **Created temporary PDB**
+   ```sql
+   CREATE PLUGGABLE DATABASE ai_to_delete_pdb_28755
+   ADMIN USER pdbadmin IDENTIFIED BY 1l2b3k4d
+   FILE_NAME_CONVERT=('pdbseed','ai_to_delete_pdb_28755');
+   ```
+2. **Opened the temporary PDB**
+   ```sql
+   ALTER PLUGGABLE DATABASE ai_to_delete_pdb_28755 OPEN;
+   ```
+3. **Verified PDB existence**
+   ```sql
+   SHOW PDBS;
+   ```
+4. **Closed the PDB**
+   ```sql
+   ALTER PLUGGABLE DATABASE ai_to_delete_pdb_28755 CLOSE IMMEDIATE;
+   ```
+5. **Deleted the PDB including datafiles**
+   ```sql
+   DROP PLUGGABLE DATABASE ai_to_delete_pdb_28755 INCLUDING DATAFILES;
+   ```
+6. **Confirmed deletion**
+   ```sql
+   SHOW PDBS;
+   ```
 **Evidence:** See screenshots in `screenshots/` folder
 
 ---
