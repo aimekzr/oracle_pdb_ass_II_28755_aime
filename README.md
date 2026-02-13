@@ -161,4 +161,5 @@ I understand that violations of academic integrity will result in zero marks.
 **Issues Encountered:** Yes (OEM not available in Oracle XE - used SQL*Plus alternative)
 
 ---
-**--End of Documentation--**
+
+**End of Documentation**
