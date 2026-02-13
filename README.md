@@ -161,9 +161,12 @@ I understand that violations of academic integrity will result in zero marks.
 
 ## Screenshots Directory
 
-screenshots/
-├── pdb_creation.png
-├── pdb_deletion.png
-└── oem_dashboard.png
+screenshots
+- PDB Creation.png <br>
+![image alt]()
+- Temporary PDB Creation and Deletion.png <br>
+![image alt](https://github.com/aimekzr/oracle_pdb_ass_II_28755_aime/tree/e05c0c37652f1b81e27111382fbf02b361c2bf09/screenshots/Create%20and%20Delete%20Temporary%20PDB)
+
+- OEM dashboard.png <br>
 
 **End of Documentation**
