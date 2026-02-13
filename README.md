@@ -57,12 +57,10 @@ This assignment demonstrates practical understanding of Oracle Multitenant Archi
    ADMIN USER pdbadmin IDENTIFIED BY 1l2b3k4d
    FILE_NAME_CONVERT=('pdbseed','ai_pdb_28755');
    ```
-   <img width="500" height="400" alt="Image" src="https://github.com/user-attachments/assets/7adafbcb-3cc5-40dc-a44d-c5e1090fe7a2" />
 3. **Opened the PDB**
    ```sql
    ALTER PLUGGABLE DATABASE ai_pdb_28755 OPEN;
    ```
-   <img width="500" height="400" alt="Image" src="https://github.com/user-attachments/assets/9c1e5176-7ba0-4e22-a2df-c5a7866ecd76" />
 4. **Verified PDB is created and open**
    ```sql
    SHOW PDBS;
@@ -83,7 +81,6 @@ This assignment demonstrates practical understanding of Oracle Multitenant Archi
    ```sql
    SELECT username FROM dba_users WHERE username = 'aime_plsqlauca_28755';
    ```
-   <img width="500" height="400" alt="Image" src="https://github.com/user-attachments/assets/909e89f8-c6f8-4862-b61b-6ff66aafcabf" />
 #### Evidence Screenshots Directory 
 - PDB Creation <br>
 ![image alt](https://github.com/aimekzr/oracle_pdb_ass_II_28755_aime/tree/3b1a55014ab985a64b5364cd5219c48ba2d7a8eb/screenshots/PDB%20Creation%20screenshots)
