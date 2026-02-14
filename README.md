@@ -152,6 +152,25 @@ This assignment demonstrates practical understanding of Oracle Multitenant Archi
 generated content was copied without attribution or adaptation.”
 I understand that violations of academic integrity will result in zero marks.
 
+## References🤖
+
+1. Oracle Documentation - Creating a Pluggable Database <br>
+   https://docs.oracle.com/en/database/oracle/oracle-database/21/multi/creating-a-pdb-from-scratch.html
+
+2. Oracle Documentation - Dropping a Pluggable Database <br>
+   https://docs.oracle.com/database/121/SQLRF/statements_8028.htm
+
+3. Oracle-Base - Multitenant: Create and Configure a PDB <br>
+   https://oracle-base.com/articles/12c/multitenant-create-and-configure-pluggable-database-12cr1
+
+4. Oracle-Base - Manage Users and Privileges in PDB <br>
+   https://oracle-base.com/articles/12c/multitenant-manage-users-and-privileges-for-cdb-and-pdb-12cr1
+
+5. Oracle Tutorial - Pluggable Database Basics <br>
+   https://www.oracle.com/webfolder/technetwork/tutorials/obe/db/12c/r1/pdb/pdb_basics/pdb_basics.html
+   
+6. Youtube full tutorials Oracle CDBs and PDBs Explained (With Connections) <br>
+   https://youtu.be/Nxlumq-VTRE
 
 ## Submission Information
 
