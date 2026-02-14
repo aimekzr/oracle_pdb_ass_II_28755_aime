@@ -83,7 +83,7 @@ This assignment demonstrates practical understanding of Oracle Multitenant Archi
    ```
 #### Evidence Screenshots Directory 
 - PDB Creation <br>
-![image alt](https://github.com/aimekzr/oracle_pdb_ass_II_28755_aime/tree/3b1a55014ab985a64b5364cd5219c48ba2d7a8eb/screenshots/PDB%20Creation%20screenshots)
+📂[PDB Creation screeenshots folder](https://github.com/aimekzr/oracle_pdb_ass_II_28755_aime/tree/3b1a55014ab985a64b5364cd5219c48ba2d7a8eb/screenshots/PDB%20Creation%20screenshots)
 ---
 
 ### Task 2: Create and Delete a PDB
@@ -121,7 +121,7 @@ This assignment demonstrates practical understanding of Oracle Multitenant Archi
    ```
 #### Evidence Screenshots Directory
 - Creation and Deletion Temporary PDB <br>
-![image alt](https://github.com/aimekzr/oracle_pdb_ass_II_28755_aime/tree/e05c0c37652f1b81e27111382fbf02b361c2bf09/screenshots/Create%20and%20Delete%20Temporary%20PDB)
+📂[Temporary PDB screenshots folder](https://github.com/aimekzr/oracle_pdb_ass_II_28755_aime/tree/e05c0c37652f1b81e27111382fbf02b361c2bf09/screenshots/Create%20and%20Delete%20Temporary%20PDB)
 ---
 
 ### Task 3: Oracle Enterprise Manager (OEM)
@@ -138,7 +138,7 @@ This assignment demonstrates practical understanding of Oracle Multitenant Archi
 
 #### Evidence Screenshots Directory
 - OEM dashboard <br>
-![image alt](https://github.com/aimekzr/oracle_pdb_ass_II_28755_aime/tree/6d20e7423a100030d0d876f869792e1c55faf5a8/screenshots/OEM%20dashboard)
+📂[OEM dashboard screenshots folder](https://github.com/aimekzr/oracle_pdb_ass_II_28755_aime/tree/6d20e7423a100030d0d876f869792e1c55faf5a8/screenshots/OEM%20dashboard)
 ---
 
 ## Challenges Faced and How They Were Solved
@@ -152,7 +152,6 @@ This assignment demonstrates practical understanding of Oracle Multitenant Archi
 generated content was copied without attribution or adaptation.”
 I understand that violations of academic integrity will result in zero marks.
 
----
 
 ## Submission Information
 
