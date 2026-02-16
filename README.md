@@ -31,7 +31,7 @@ This assignment demonstrates practical understanding of Oracle Multitenant Archi
 **Oracle Database Version:** `Oracle Database 21c Express Edition Release 21.0.0.0.0`  
 **Operating System:** `Microsoft Windows x86 64-bit.`   <br> 
 **Container Database (CDB) Name:** `EX`   <br> 
-**Oracle Enterprise Manager Version:** `Not installed (Oracle XE does not include OEM).`  <br> 
+**Oracle Enterprise Manager Version:** `Version 21.3.0.0.0 Express Edition.`  <br> 
 **Installation Type:** `Single Instance.`  <br> 
 
 ---
