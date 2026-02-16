@@ -54,7 +54,7 @@ This assignment demonstrates practical understanding of Oracle Multitenant Archi
 2. **Created the PDB**
    ```sql
    CREATE PLUGGABLE DATABASE ai_pdb_28755
-   ADMIN USER pdbadmin IDENTIFIED BY 1l2b3k4d
+   ADMIN USER pdbadmin IDENTIFIED BY 0793838822
    FILE_NAME_CONVERT=('pdbseed','ai_pdb_28755');
    ```
 3. **Opened the PDB**
@@ -96,7 +96,7 @@ This assignment demonstrates practical understanding of Oracle Multitenant Archi
 1. **Created temporary PDB**
    ```sql
    CREATE PLUGGABLE DATABASE ai_to_delete_pdb_28755
-   ADMIN USER pdbadmin IDENTIFIED BY 1l2b3k4d
+   ADMIN USER pdbadmin IDENTIFIED BY 0793838822
    FILE_NAME_CONVERT=('pdbseed','ai_to_delete_pdb_28755');
    ```
 2. **Opened the temporary PDB**
