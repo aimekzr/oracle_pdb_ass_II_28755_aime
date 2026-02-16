@@ -145,7 +145,7 @@ This assignment demonstrates practical understanding of Oracle Multitenant Archi
 
 ### Challenge - Oracle Enterprise Manager (OEM) is not available in Oracle 21c Express Edition.
 **Solution:** Used SQL*Plus commands to verify all tasks completion. Screenshots demonstrate PDB creation, deletion, and user management through SQL commands as alternative evidence to Problem configuration.
-📂[Problem configuration screeenshots folder]
+📂[Problem configuration screeenshots folder](https://github.com/aimekzr/oracle_pdb_ass_II_28755_aime/tree/595d75967fc83ad1b9c48cfe0b37eb4aac3ae3dc/screenshots/Problem%20configuration)
 
 ---
 ## Integrity Statement
